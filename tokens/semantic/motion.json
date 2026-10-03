@@ -1,0 +1,40 @@
+{
+  "motion": {
+    "ease": {
+      "$type": "cubicBezier",
+      "out": { "$value": [0.22, 1, 0.36, 1], "$description": "Todo lo que entra o aparece" },
+      "in-out": { "$value": [0.65, 0, 0.35, 1], "$description": "Desplazamientos dentro de la pantalla" }
+    },
+    "duration": {
+      "$type": "duration",
+      "instant": { "$value": "150ms" },
+      "fast": { "$value": "250ms" },
+      "base": { "$value": "400ms" },
+      "slow": { "$value": "600ms" },
+      "slower": { "$value": "900ms" }
+    },
+    "distance": {
+      "$type": "dimension",
+      "sm": { "$value": "8px" },
+      "md": { "$value": "16px" },
+      "lg": { "$value": "24px" }
+    },
+    "stagger": {
+      "interval": { "$type": "duration", "$value": "70ms" },
+      "max": { "$type": "number", "$value": 6 }
+    },
+    "spring": {
+      "$type": "spring",
+      "snappy": { "$value": { "stiffness": 500, "damping": 32 } },
+      "gentle": { "$value": { "stiffness": 260, "damping": 25 } }
+    },
+    "interaction": {
+      "press-scale": { "$type": "number", "$value": 0.98 },
+      "hover-scale": { "$type": "number", "$value": 1.04 },
+      "hover-lift": { "$type": "dimension", "$value": "-2px" }
+    },
+    "viewport": {
+      "amount": { "$type": "number", "$value": 0.2 }
+    }
+  }
+}

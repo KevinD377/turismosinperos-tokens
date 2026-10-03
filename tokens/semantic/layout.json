@@ -1,0 +1,27 @@
+{
+  "spacing": {
+    "$type": "dimension",
+    "nav-height": {
+      "$value": "84px",
+      "$description": "Alto de la navbar fija. 84 en móvil, 76 desde 64rem",
+      "$extensions": { "com.turismosinperos": { "desktop": "76px" } }
+    },
+    "section": {
+      "$value": "64px",
+      "$description": "Padding vertical de sección, fluido",
+      "$extensions": { "com.turismosinperos": { "fluidMax": "128px" } }
+    },
+    "gutter": {
+      "$value": "16px",
+      "$description": "Padding horizontal de página, fluido",
+      "$extensions": { "com.turismosinperos": { "fluidMax": "80px" } }
+    }
+  },
+  "container": {
+    "$type": "dimension",
+    "prose": { "$value": "672px" },
+    "content": { "$value": "1152px" },
+    "wide": { "$value": "1280px" },
+    "measure": { "$value": "65ch", "$description": "Ancho máximo de párrafo. Solo CSS" }
+  }
+}

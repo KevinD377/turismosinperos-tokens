@@ -1,0 +1,42 @@
+{
+  "color": {
+    "$type": "color",
+    "fg": { "$value": "{color.cherry-950}" },
+    "fg-secondary": { "$value": "{color.cherry-950}", "$extensions": { "com.turismosinperos": { "alpha": 0.7 } } },
+    "fg-disabled": { "$value": "{color.cherry-950}", "$extensions": { "com.turismosinperos": { "alpha": 0.4 } } },
+    "fg-accent": { "$value": "{color.rosewood-600}" },
+    "fg-positive": { "$value": "{color.olive-600}" },
+    "fg-inverse": { "$value": "{color.humo}" },
+    "fg-inverse-secondary": { "$value": "{color.humo}", "$extensions": { "com.turismosinperos": { "alpha": 0.75 } } },
+    "fg-inverse-accent": { "$value": "{color.bone-200}" },
+
+    "surface": { "$value": "{color.humo}" },
+    "surface-raised": { "$value": "{color.white}" },
+    "surface-muted": { "$value": "{color.bone-200}" },
+    "surface-inverse": { "$value": "{color.cherry-950}" },
+    "surface-accent-subtle": { "$value": "{color.rosewood-400}", "$extensions": { "com.turismosinperos": { "alpha": 0.1 } } },
+    "surface-positive-subtle": { "$value": "{color.olive-500}", "$extensions": { "com.turismosinperos": { "alpha": 0.12 } } },
+
+    "line": { "$value": "{color.bone-200}" },
+    "line-subtle": { "$value": "{color.cherry-950}", "$extensions": { "com.turismosinperos": { "alpha": 0.1 } } },
+    "line-strong": { "$value": "{color.cherry-950}", "$extensions": { "com.turismosinperos": { "alpha": 0.25 } } },
+    "line-inverse": { "$value": "{color.humo}", "$extensions": { "com.turismosinperos": { "alpha": 0.3 } } },
+
+    "action-primary": { "$value": "{color.cherry-950}" },
+    "action-primary-hover": { "$value": "{color.cherry-900}" },
+    "action-primary-fg": { "$value": "{color.humo}" },
+    "action-secondary": { "$value": "{color.olive-500}" },
+    "action-secondary-hover": { "$value": "{color.olive-600}" },
+    "action-secondary-fg": { "$value": "{color.white}" },
+    "action-accent": { "$value": "{color.rosewood-600}" },
+    "action-accent-hover": { "$value": "{color.cherry-950}" },
+    "action-accent-fg": { "$value": "{color.white}" },
+
+    "focus": { "$value": "{color.rosewood-600}" },
+    "focus-inverse": { "$value": "{color.bone-200}" },
+
+    "scrim-soft": { "$value": "{color.black}", "$extensions": { "com.turismosinperos": { "alpha": 0.4 } } },
+    "scrim-medium": { "$value": "{color.black}", "$extensions": { "com.turismosinperos": { "alpha": 0.55 } } },
+    "scrim-strong": { "$value": "{color.black}", "$extensions": { "com.turismosinperos": { "alpha": 0.8 } } }
+  }
+}

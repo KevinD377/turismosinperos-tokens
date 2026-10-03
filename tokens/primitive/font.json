@@ -1,0 +1,15 @@
+{
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "sans": { "$value": ["Work Sans", "ui-sans-serif", "system-ui", "sans-serif"] },
+      "display": { "$value": ["Marcellus", "ui-serif", "Georgia", "serif"] }
+    },
+    "weight": {
+      "$type": "fontWeight",
+      "regular": { "$value": 400 },
+      "semibold": { "$value": 600 },
+      "bold": { "$value": 700 }
+    }
+  }
+}

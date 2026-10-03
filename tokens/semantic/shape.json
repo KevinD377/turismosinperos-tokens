@@ -1,0 +1,34 @@
+{
+  "radius": {
+    "$type": "dimension",
+    "sm": { "$value": "8px" },
+    "md": { "$value": "12px" },
+    "lg": { "$value": "16px" },
+    "xl": { "$value": "28px" },
+    "full": { "$value": "9999px" }
+  },
+  "shadow": {
+    "$type": "shadow",
+    "sm": {
+      "$value": { "color": "{color.black}", "offsetX": "0px", "offsetY": "2px", "blur": "8px", "spread": "0px" },
+      "$extensions": { "com.turismosinperos": { "alpha": 0.05 } }
+    },
+    "md": {
+      "$value": { "color": "{color.black}", "offsetX": "0px", "offsetY": "8px", "blur": "24px", "spread": "0px" },
+      "$extensions": { "com.turismosinperos": { "alpha": 0.1 } }
+    },
+    "lg": {
+      "$value": { "color": "{color.black}", "offsetX": "0px", "offsetY": "16px", "blur": "40px", "spread": "0px" },
+      "$extensions": { "com.turismosinperos": { "alpha": 0.14 } }
+    }
+  },
+  "z": {
+    "$type": "number",
+    "base": { "$value": 0 },
+    "sticky": { "$value": 10 },
+    "nav": { "$value": 40 },
+    "overlay": { "$value": 50 },
+    "modal": { "$value": 60 },
+    "toast": { "$value": 70 }
+  }
+}

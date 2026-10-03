@@ -1,0 +1,15 @@
+{
+  "color": {
+    "$type": "color",
+    "cherry-950": { "$value": "#26141A", "$description": "Texto principal, botón primario" },
+    "cherry-900": { "$value": "#180B10", "$description": "Hover del botón primario" },
+    "rosewood-400": { "$value": "#AA6B76", "$description": "Relleno, ícono o texto ≥24 px. Nunca texto chico (3.75 sobre humo)" },
+    "rosewood-600": { "$value": "#8C4F5A", "$description": "Acento de texto, foco" },
+    "olive-500": { "$value": "#847225", "$description": "Relleno, ícono o texto ≥24 px. Nunca texto chico (4.31 sobre humo)" },
+    "olive-600": { "$value": "#6B5C1E", "$description": "Texto positivo, hover secundario" },
+    "bone-200": { "$value": "#DBCCB5", "$description": "Bordes, superficie cálida, acento sobre oscuro" },
+    "humo": { "$value": "#F2F4F3", "$description": "Fondo de página" },
+    "white": { "$value": "#FFFFFF", "$description": "Superficie de tarjeta" },
+    "black": { "$value": "#000000", "$description": "Solo velos y sombras" }
+  }
+}
