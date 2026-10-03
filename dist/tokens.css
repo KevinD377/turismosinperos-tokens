@@ -1,0 +1,113 @@
+/* @turismosinperos/tokens v0.1.0 — generado, no editar a mano */
+
+@theme {
+  --color-cherry-950: #26141A;
+  --color-cherry-900: #180B10;
+  --color-rosewood-400: #AA6B76;
+  --color-rosewood-600: #8C4F5A;
+  --color-olive-500: #847225;
+  --color-olive-600: #6B5C1E;
+  --color-bone-200: #DBCCB5;
+  --color-humo: #F2F4F3;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-fg: #26141A;
+  --color-fg-secondary: rgb(38 20 26 / 0.7);
+  --color-fg-disabled: rgb(38 20 26 / 0.4);
+  --color-fg-accent: #8C4F5A;
+  --color-fg-positive: #6B5C1E;
+  --color-fg-inverse: #F2F4F3;
+  --color-fg-inverse-secondary: rgb(242 244 243 / 0.75);
+  --color-fg-inverse-accent: #DBCCB5;
+  --color-surface: #F2F4F3;
+  --color-surface-raised: #FFFFFF;
+  --color-surface-muted: #DBCCB5;
+  --color-surface-inverse: #26141A;
+  --color-surface-accent-subtle: rgb(170 107 118 / 0.1);
+  --color-surface-positive-subtle: rgb(132 114 37 / 0.12);
+  --color-line: #DBCCB5;
+  --color-line-subtle: rgb(38 20 26 / 0.1);
+  --color-line-strong: rgb(38 20 26 / 0.25);
+  --color-line-inverse: rgb(242 244 243 / 0.3);
+  --color-action-primary: #26141A;
+  --color-action-primary-hover: #180B10;
+  --color-action-primary-fg: #F2F4F3;
+  --color-action-secondary: #847225;
+  --color-action-secondary-hover: #6B5C1E;
+  --color-action-secondary-fg: #FFFFFF;
+  --color-action-accent: #8C4F5A;
+  --color-action-accent-hover: #26141A;
+  --color-action-accent-fg: #FFFFFF;
+  --color-focus: #8C4F5A;
+  --color-focus-inverse: #DBCCB5;
+  --color-scrim-soft: rgb(0 0 0 / 0.4);
+  --color-scrim-medium: rgb(0 0 0 / 0.55);
+  --color-scrim-strong: rgb(0 0 0 / 0.8);
+  --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Marcellus", ui-serif, "Georgia", serif;
+  --text-display-xl: clamp(2.75rem, 2.232rem + 2.210vw, 4rem);
+  --text-display-xl--line-height: 1.1;
+  --text-display-xl--letter-spacing: -0.02em;
+  --text-display-lg: clamp(2rem, 1.586rem + 1.768vw, 3rem);
+  --text-display-lg--line-height: 1.1;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-md: clamp(1.5rem, 1.293rem + 0.884vw, 2rem);
+  --text-display-md--line-height: 1.15;
+  --text-display-md--letter-spacing: -0.02em;
+  --text-display-sm: clamp(1.25rem, 1.146rem + 0.442vw, 1.5rem);
+  --text-display-sm--line-height: 1.2;
+  --text-display-sm--letter-spacing: -0.01em;
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.6;
+  --text-body: 1rem;
+  --text-body--line-height: 1.6;
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.5;
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.4;
+  --text-overline: 0.6875rem;
+  --text-overline--line-height: 1.3;
+  --text-overline--letter-spacing: 0.16em;
+  --text-overline--font-weight: 600;
+  --spacing-section: clamp(4rem, 2.343rem + 7.072vw, 8rem);
+  --spacing-gutter: clamp(1rem, -0.657rem + 7.072vw, 5rem);
+  --container-prose: 42rem;
+  --container-content: 72rem;
+  --container-wide: 80rem;
+  --container-measure: 65ch;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.75rem;
+  --radius-full: 9999px;
+  --shadow-sm: 0 2px 8px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 8px 24px 0 rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 16px 40px 0 rgb(0 0 0 / 0.14);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@theme inline {
+  --spacing-nav-height: var(--nav-height);
+}
+
+:root {
+  --nav-height: 84px;
+  --duration-instant: 150ms;
+  --duration-fast: 250ms;
+  --duration-base: 400ms;
+  --duration-slow: 600ms;
+  --duration-slower: 900ms;
+  --z-base: 0;
+  --z-sticky: 10;
+  --z-nav: 40;
+  --z-overlay: 50;
+  --z-modal: 60;
+  --z-toast: 70;
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --nav-height: 76px;
+  }
+}
