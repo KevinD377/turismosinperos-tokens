@@ -1,0 +1,1 @@
+{ "color": { "$type": "color", "roto": { "$value": "{color.no-existe}" } } }
